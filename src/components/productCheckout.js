@@ -46,10 +46,10 @@ export default function ProductCheckout({
             )}
           </p>
           <p className="text-sm mt-15 sm:mt-20 text-gray-600 ">
-            <div className="p-1">Total Product Cost: ${totalPrice}</div>
-            <div className="p-1 border-b">Delivery Fee: ${deliveryFee}</div>
+            <div className="p-1">Total Product Cost: $ {totalPrice}</div>
+            <div className="p-1 border-b">Delivery Fee: $ {deliveryFee}</div>
             <div className="pt-2 pl-1">
-              Your Total Price is: ${totalPrice + deliveryFee}
+              Your Total Price is: $ {totalPrice + deliveryFee}
             </div>
             <button
               className=" text-xl  p-2 m-2 rounded-md shadow-md text-blue-500 hover:scale-105 border"

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Air Jordan Legacy 312",
+    "price": 160,
+    "image": "/assets/Kid Shoes/air jordan legacy 312.webp",
+    "description": "The Air Jordan Legacy 312 combines eleKidts from the Air Jordan 1, Air Jordan 3, and Nike Air Alpha Force. This shoe pays homage to Chicago's basketball heritage with a unique, eye-catching design."
+  },
+  {
+    "id": 2,
+    "title": "Jordan Day1 EO",
+    "price": 140,
+    "image": "/assets/Kid Shoes/jordan day1 eo.webp",
+    "description": "The Jordan Day1 EO offers a modern twist on a classic design, providing both comfort and style. Perfect for both casual wear and athletic activities."
+  },
+  {
+    "id": 3,
+    "title": "Jordan Stadium 90",
+    "price": 150,
+    "image": "/assets/Kid Shoes/jordan stadium 90.webp",
+    "description": "Inspired by the iconic '90s Jordan shoes, the Jordan Stadium 90 blends retro style with contemporary comfort, making it a versatile addition to any wardrobe."
+  },
+  {
+    "id": 4,
+    "title": "Nike Air Max Plus",
+    "price": 170,
+    "image": "/assets/Kid Shoes/nike air max plus.webp",
+    "description": "The Nike Air Max Plus features Tuned Air technology for tailored comfort and support. Its distinctive design and vibrant colors make it a standout choice for any sneaker enthusiast."
+  },
+  {
+    "id": 5,
+    "title": "Nike Dunk Low SE",
+    "price": 120,
+    "image": "/assets/Kid Shoes/nike dunk low se.webp",
+    "description": "The Nike Dunk Low SE is a timeless sneaker with a low-profile silhouette. Its versatile design makes it suitable for a variety of styles, whether for casual wear or special occasions."
+  },
+  {
+    "id": 6,
+    "title": "Nike Revolution 7",
+    "price": 100,
+    "image": "/assets/Kid Shoes/nike revolution 7.webp",
+    "description": "The Nike Revolution 7 is built for running and casual wear. It features a lightweight, breathable construction that ensures comfort and durability for everyday activities."
+  }
+]

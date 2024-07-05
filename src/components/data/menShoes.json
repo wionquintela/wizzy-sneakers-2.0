@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Air Jordan 9G",
+    "price": 150,
+    "image": "/assets/Men Shoes/air jordan 9g.webp",
+    "description": "The Air Jordan 9G combines heritage style with modern comfort, perfect for on and off the court.",
+    "brand": "Nike"
+  },
+  {
+    "id": 2,
+    "title": "Air Jordan Low 1",
+    "price": 120,
+    "image": "/assets/Men Shoes/air jordan low 1.webp",
+    "description": "A low-top version of the iconic Air Jordan 1, offering timeless style and versatility.",
+    "brand": "Nike"
+  },
+  {
+    "id": 3,
+    "title": "Dunk Lows",
+    "price": 100,
+    "image": "/assets/Men Shoes/dunklows.webp",
+    "description": "Nike Dunk Lows feature a classic basketball silhouette with a low-profile design for everyday wear.",
+    "brand": "Nike"
+  },
+  {
+    "id": 4,
+    "title": "Jordan Retro Nu 1",
+    "price": 130,
+    "image": "/assets/Men Shoes/jordan retro nu 1.webp",
+    "description": "The Jordan Retro Nu 1 combines elements from the Air Jordan 1 with modern updates for a fresh look.",
+    "brand": "Nike"
+  },
+  {
+    "id": 5,
+    "title": "Jordan Spizike Low",
+    "price": 140,
+    "image": "/assets/Men Shoes/jordan spizike low.webp",
+    "description": "The Jordan Spizike Low pays homage to Spike Lee and features iconic elements from several Air Jordan models.",
+    "brand": "Nike"
+  },
+  {
+    "id": 6,
+    "title": "Nike Air Max SC",
+    "price": 160,
+    "image": "/assets/Men Shoes/nike air max sc.webp",
+    "description": "The Nike Air Max SC offers retro Air Max style with modern comfort technologies.",
+    "brand": "Nike"
+  },
+  {
+    "id": 7,
+    "title": "Nike Invincible 3",
+    "price": 170,
+    "image": "/assets/Men Shoes/nike invincible 3.webp",
+    "description": "Nike Invincible 3 is designed for high-performance running, providing comfort and durability.",
+    "brand": "Nike"
+  },
+  {
+    "id": 8,
+    "title": "Nike SB Dunk Low Pro",
+    "price": 110,
+    "image": "/assets/Men Shoes/nike sb dunk low pro.webp",
+    "description": "Nike SB Dunk Low Pro combines skateboarding heritage with Nike SB's signature comfort and style.",
+    "brand": "Nike"
+  },
+  {
+    "id": 9,
+    "title": "Tatum 2 Vortex",
+    "price": 150,
+    "image": "/assets/Men Shoes/tatum 2 vortex.webp",
+    "description": "The Tatum 2 Vortex features a lightweight design with responsive cushioning, ideal for quick cuts and jumps.",
+    "brand": "Nike"
+  }
+]

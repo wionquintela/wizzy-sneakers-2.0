@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Air Force 1 Shadow",
+    "price": 110,
+    "image": "/assets/Women Shoes/air force 1 shadow.webp",
+    "description": "The Air Force 1 Shadow celebrates a classic with extra layers of color and branding.",
+    "brand": "Nike"
+  },
+  {
+    "id": 2,
+    "title": "Nike Blazer Low 77",
+    "price": 85,
+    "image": "/assets/Women Shoes/nike blazer low 77.webp",
+    "description": "A low-top take on the classic basketball shoe with heritage style.",
+    "brand": "Nike"
+  },
+  {
+    "id": 3,
+    "title": "Nike Cortez Leather",
+    "price": 70,
+    "image": "/assets/Women Shoes/nike cortez leather.webp",
+    "description": "The Nike Cortez, an iconic running shoe, updated with premium leather.",
+    "brand": "Nike"
+  },
+  {
+    "id": 4,
+    "title": "Nike Dunk Low",
+    "price": 100,
+    "image": "/assets/Women Shoes/nike dunk low.webp",
+    "description": "A classic basketball shoe with a low-profile design and premium materials.",
+    "brand": "Nike"
+  },
+  {
+    "id": 5,
+    "title": "Nike Free Run",
+    "price": 100,
+    "image": "/assets/Women Shoes/nike free run.webp",
+    "description": "A lightweight running shoe with flexible sole for natural movement.",
+    "brand": "Nike"
+  },
+  {
+    "id": 6,
+    "title": "Nike Gamma Force",
+    "price": 120,
+    "image": "/assets/Women Shoes/nike gamma force.webp",
+    "description": "A modern take on the classic Nike Air with updated materials and comfort features.",
+    "brand": "Nike"
+  },
+  {
+    "id": 7,
+    "title": "Nike Invincible 3",
+    "price": 130,
+    "image": "/assets/Women Shoes/nike invincible 3.webp",
+    "description": "Nike's high-performance running shoe designed for long-distance comfort and support.",
+    "brand": "Nike"
+  },
+  {
+    "id": 8,
+    "title": "Nike Phoenix Waffle",
+    "price": 90,
+    "image": "/assets/Women Shoes/nike phoenix waffle.webp",
+    "description": "A lightweight and durable shoe designed for all-day comfort and style.",
+    "brand": "Nike"
+  }
+]

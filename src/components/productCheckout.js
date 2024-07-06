@@ -21,7 +21,7 @@ export default function ProductCheckout({
         </button>
       </div>
       <div
-        className="flex container mx-auto m-3 flex-row flex-wrap items-center"
+        className="flex container mx-auto m-3 flex-row flex-wrap justify-center"
         id={selected.id}
       >
         <div className="sm:w-1/2 flex-col p-5 justify-between">
@@ -59,7 +59,7 @@ export default function ProductCheckout({
             </button>
           </p>
         </div>
-        <div className="items-center sm:w-[45%]  m-1">
+        <div className=" w-cardMobile  m-1 border rounded-md">
           <img src={selected.image} alt="shoes" />
         </div>
       </div>

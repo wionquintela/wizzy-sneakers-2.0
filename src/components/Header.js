@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function Header() {
   return (
     <div className="container mx-auto px-4 text-center">
-      <h1 className="text-4xl sm:text-5xl mt-60 sm:mt-40  font-semibold">
+      <h1 className="text-4xl sm:text-5xl mt-20 sm:mt-40  font-semibold">
         Wizzy Sneakers 2.0
       </h1>
       {/* <div className="mt-4 pb-20">

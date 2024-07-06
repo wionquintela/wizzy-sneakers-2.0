@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       width: {
         cardDesktop: "300px",
-        cardMobile: "400px",
+        cardMobile: "320px",
         card: "300px",
       },
     },

@@ -23,7 +23,7 @@ export default function MenShoes({ selected, setSelected, selectedShoe }) {
               {...shoe}
               onClick={() => selectedShoe(shoe)} // Pass the shoe data
               selected={selected}
-              className="w-1/4"
+              // className="w-1/4"
             />
           </div>
         ))}

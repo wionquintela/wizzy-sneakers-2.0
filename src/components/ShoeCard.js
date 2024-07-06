@@ -33,7 +33,7 @@ export default function ShoeCard({
 
   return (
     <div
-      className="w-cardMobile sm:w-cardDesktop mx-auto rounded-lg m-4 overflow-hidden shadow-md"
+      className="w-cardMobile sm:w-cardDesktop  rounded-lg m-2 overflow-hidden shadow-md border-gray-400 border"
       id={id}
     >
       {/* Image */}

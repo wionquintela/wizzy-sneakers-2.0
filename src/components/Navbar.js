@@ -2,7 +2,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
-    <div className="container mx-auto text-xs sm:text-sm md:text-sm lg:text-sm  border border-black">
+    <div className="container mx-auto text-xs sm:text-sm md:text-sm lg:text-sm border shadow border-gray-400">
       <div className="flex justify-between items-center px-4 py-2">
         {/* Link at the start */}
         <div className="w-1/8 text-center  p-2">

@@ -22,7 +22,7 @@ export default function Women({ selected, setSelected, selectedShoe }) {
                 {...shoe}
                 onClick={() => selectedShoe(shoe)}
                 selected={selected}
-                className="w-1/4"
+                // className="w-1/4"
               />
             </div>
           ))}

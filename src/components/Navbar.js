@@ -39,7 +39,15 @@ export default function Navbar() {
           <div className="w-1/8 text-center  p-2">
             <a className="cursor-pointer navLinks hover:underline" href="/cart">
               <button>
-                <h1 className="inline-flex">Cart</h1>
+                <h1 className="inline-flex static">
+                  Cart{" "}
+                  <div
+                    className="absolute
+                   right-[10px] top-[10px] sm:right-[80px] text-xs bg-red-700 px-[3px] rounded text-white"
+                  >
+                    2
+                  </div>
+                </h1>
               </button>
             </a>
           </div>

@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function Header() {
   return (
     <div className="container mx-auto px-4 text-center">
-      <h1 className="text-4xl sm:text-5xl mt-20 sm:mt-40 wow animate__animated animate__fadeIn font-semibold">
+      <h1 className="text-6xl sm:text-5xl mt-20 sm:mt-40 wow animate__animated animate__jello font-semibold">
         Wizzy Sneakers 2.0
       </h1>
       {/* <div className="mt-4 pb-20">
@@ -24,7 +24,7 @@ export default function Header() {
               className="w-card rounded-full cursor-pointer hover:scale-105 shadow-inner opacity-100 hover:opacity-75"
             />
           </a>
-          <h1 className="p-4">Men's Shoes</h1>
+          <h1 className="p-4 text-xl sm:text-sm">Men's Shoes</h1>
         </div>
         <div className="p-5 wow animate__animated animate__fadeIn">
           <a href="/women">
@@ -33,7 +33,7 @@ export default function Header() {
               className="w-card rounded-full cursor-pointer hover:scale-105 shadow-inner opacity-100 hover:opacity-75"
             />
           </a>
-          <h1 className="p-4">Women's Shoes</h1>
+          <h1 className="p-4 text-xl sm:text-sm">Women's Shoes</h1>
         </div>
         <div className="p-5 wow animate__animated animate__fadeIn">
           <a href="/kids">
@@ -42,7 +42,7 @@ export default function Header() {
               className="w-card rounded-full cursor-pointer hover:scale-105 shadow-inner opacity-100 hover:opacity-75"
             />
           </a>
-          <h1 className="p-4">Kid's Shoes</h1>
+          <h1 className="p-4 text-xl sm:text-sm">Kid's Shoes</h1>
         </div>
       </div>
     </div>

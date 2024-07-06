@@ -12,7 +12,7 @@ export default function Women({ selected, setSelected, selectedShoe }) {
   return (
     <>
       <div className="container mx-auto">
-        <h1 className="text-4xl mt-20 sm:text-5xl p-4 font-semibold wow animate__animated animate__fadeInLeft">
+        <h1 className="text-6xl mt-20 sm:text-5xl p-4 font-semibold wow animate__animated animate__fadeInLeft">
           Women's Shoes
         </h1>
         <div className="flex flex-row flex-wrap justify-center">

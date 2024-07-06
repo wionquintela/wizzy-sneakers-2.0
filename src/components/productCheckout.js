@@ -4,6 +4,7 @@ export default function ProductCheckout({
   selected,
   setSelected,
   selectedShoe,
+  onClick,
 }) {
   const [quantity, setQuantity] = useState(1);
   const totalPrice = selected.price * quantity;
@@ -31,10 +32,10 @@ export default function ProductCheckout({
           <p className="text-sm text-gray-600 wow animate__animated animate__fadeInLeft">
             {selected.description}
           </p>
-          <p className="text-md  text-center sm:text-start sm:mt-10">
+          <p className="text-2xl sm:text-md  text-center sm:text-start sm:mt-10">
             Quantity:{" "}
             <button
-              className=" text-2xl  p-2 m-2 rounded-md shadow-md hover:scale-105 border "
+              className=" text-2xl  p-5 sm:p-2 m-2 rounded-md shadow-md hover:scale-105 border border-gray-400 "
               onClick={() => setQuantity(quantity + 1)}
             >
               +
@@ -42,28 +43,30 @@ export default function ProductCheckout({
             {quantity}
             {quantity > 1 && (
               <button
-                className=" text-2xl  p-2 m-2 rounded-md shadow-md hover:scale-105 border"
+                className=" text-2xl  p-5 sm:p-2 m-2 rounded-md shadow-md hover:scale-105 border border-gray-400"
                 onClick={() => setQuantity(quantity - 1)}
               >
                 -
               </button>
             )}
           </p>
-          <p className="text-sm mt-15 sm:mt-20 text-gray-600 ">
+          <p className="text-xl sm:text-sm mt-5 sm:mt-20 text-gray-600 ">
             <div className="p-1">Total Product Cost: $ {totalPrice}</div>
             <div className="p-1 border-b">Delivery Fee: $ {deliveryFee}</div>
             <div className="pt-2 pl-1">
               Your Total Price is: $ {totalPrice + deliveryFee}
             </div>
-            <button
-              className=" text-xl  p-2 m-2 rounded-md shadow-md text-blue-500 hover:scale-105 border"
-              onClick={() => alert("thanks for buying")}
-            >
-              Checkout Order
-            </button>
+            <div className="text-center">
+              <button
+                className=" text-xl p-4 sm:p-2 m-2 rounded-md shadow-md text-blue-500 hover:scale-105 border border-gray-400"
+                onClick={onClick}
+              >
+                Checkout Order
+              </button>
+            </div>
           </p>
         </div>
-        <div className=" w-cardMobile  m-1 border rounded-md">
+        <div className=" w-cardMobile  m-1 border rounded-md justify-start">
           <img src={selected.image} alt="shoes" />
         </div>
       </div>

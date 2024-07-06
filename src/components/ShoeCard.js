@@ -41,7 +41,7 @@ export default function ShoeCard({
       <a onClick={handleCardClick}>
         <img
           src={image} // Use the image prop directly
-          className="p-2 rounded-lg hover:scale-105 cursor-pointer"
+          className="p-2 rounded-lg hover:scale-105 cursor-pointer transition delay-150 duration-300 ease-in-out"
           alt={title}
         />
       </a>

@@ -12,6 +12,11 @@ import { useState, useEffect } from "react";
 
 function App() {
   const [selected, setSelected] = useState({});
+  const [cartNotif, setCartNotif] = useState("");
+
+  function addToCart() {
+    console.log("Add to cart");
+  }
 
   function selectedShoe(shoe) {
     setSelected(shoe);
@@ -67,6 +72,7 @@ function App() {
                 selected={selected}
                 setSelected={setSelected}
                 selectedShoe={selectedShoe}
+                onClick={() => addToCart()}
               />
             }
           />

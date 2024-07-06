@@ -23,18 +23,19 @@ export default function ShoeCard({
 
     // Toggle bounce animation on click
     const heartIcon = document.getElementById(`heartIcon-${id}`);
-    heartIcon.classList.add("animate-bounce");
+    heartIcon.classList.add("animate__bounce");
 
     // Remove bounce animation after 1 second
     setTimeout(() => {
-      heartIcon.classList.remove("animate-bounce");
+      heartIcon.classList.remove("animate__bounce");
     }, 100);
   }
 
   return (
     <div
-      className="w-cardMobile sm:w-cardDesktop  rounded-lg m-2 overflow-hidden shadow-md border-gray-400 border"
+      className="w-cardMobile sm:w-cardDesktop  rounded-lg m-2 overflow-hidden shadow-md border-gray-400 border wow animate__animated animate__fadeIn"
       id={id}
+      data-wow-delay={`${id}s`}
     >
       {/* Image */}
       <a onClick={handleCardClick}>
@@ -48,7 +49,7 @@ export default function ShoeCard({
       {/* Content */}
       <div className="p-4">
         {/* Price - Positioned just below the image */}
-        <div className="bg-white">
+        <div className="bg-[#f0f0f0]">
           <h1 className="text-2xl font-semibold">${price}</h1>
         </div>
 

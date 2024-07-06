@@ -1,3 +1,6 @@
+import "animate.css";
+import WOW from "wowjs";
+
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -5,7 +8,7 @@ import MenShoes from "./components/shoes/MenShoes";
 import WomenShoes from "./components/shoes/WomenShoes";
 import KidsShoes from "./components/shoes/KidsShoes";
 import Checkout from "./components/productCheckout"; // Ensure this follows the component naming conventions
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [selected, setSelected] = useState({});
@@ -15,8 +18,14 @@ function App() {
     console.log("Selected shoe:", selected);
   }
 
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+  }, []);
+
   return (
-    <div className="App text-black">
+    <div className=" App text-black">
       <Router>
         <Navbar />
         <Routes>

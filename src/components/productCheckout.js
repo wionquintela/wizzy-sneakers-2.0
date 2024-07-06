@@ -25,12 +25,16 @@ export default function ProductCheckout({
         id={selected.id}
       >
         <div className="sm:w-1/2 flex-col p-5 justify-between">
-          <h1 className=" text-4xl text-semibold pb-2 ">{selected.title}</h1>
-          <p className="text-sm text-gray-600 ">{selected.description}</p>
+          <h1 className=" text-4xl text-semibold pb-2 wow animate__animated animate__fadeInLeft">
+            {selected.title}
+          </h1>
+          <p className="text-sm text-gray-600 wow animate__animated animate__fadeInLeft">
+            {selected.description}
+          </p>
           <p className="text-md  text-center sm:text-start sm:mt-10">
             Quantity:{" "}
             <button
-              className=" text-2xl  p-2 m-2 rounded-md shadow-md hover:scale-105 border"
+              className=" text-2xl  p-2 m-2 rounded-md shadow-md hover:scale-105 border "
               onClick={() => setQuantity(quantity + 1)}
             >
               +
